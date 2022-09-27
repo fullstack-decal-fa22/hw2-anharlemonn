@@ -32,6 +32,18 @@ h2 {
 }
 
 .threevert {
+  background-color: red;
+  height: 100px;
+}
+
+#white { 
+  background-color: white;
+  height: 100px;
+}
+
+.light-blue {
+  background-color: lightblue;
+  height: 100px;
 }
 
 .threehoriz {
@@ -95,14 +107,20 @@ h2 {
 
 .thailand-red {
   /* TODO */
+  background-color: #B5002D ;
+  height: 50px;
 }
 
 .thailand-white {
   /* TODO */
+  background-color: white;
+  height: 50px;
 }
 
 .thailand-blue {
   /* TODO */
+  background-color: #2E2A4C;
+  height: 100px;
 }
 
 /* END QUESTION 2 */
@@ -130,7 +148,13 @@ h2 {
 
 .mexico-img {
   /* TODO */
+  display: flex;
+  align-self: center;
+  max-height:300px;
+  max-width: 200px;
+  
 }
+
 
 .mexico-red {
   background-color: #ce1126;
